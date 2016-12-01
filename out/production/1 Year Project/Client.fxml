@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BusinessLogic.Client ">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ClientController">
    <tabs>
       <Tab text="Projects">
          <content>
@@ -21,7 +21,7 @@
                <children>
                   <TextField fx:id="pass1" layoutX="192.0" layoutY="108.0" />
                   <TextField fx:id="pass2" layoutX="192.0" layoutY="173.0" />
-                  <Button layoutX="250.0" layoutY="262.0" mnemonicParsing="false" onAction="#changeLogin" text="OK" />
+                  <Button layoutX="250.0" layoutY="262.0" mnemonicParsing="false" onAction="#userChangeLogin" text="OK" />
                   <Text layoutX="214.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type new password" />
                </children>
             </AnchorPane>
