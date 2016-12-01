@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b88e3e9e-978f-4370-8fab-99c75e360d0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Admin.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Admin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Client.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Contractor.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Contractor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Login.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/LoginException.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/LoginException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/MyBLMain.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/MyBLMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/MyCalender.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/MyCalender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/MyProject.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/MyProject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Security.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Security.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Timeline.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/Timeline.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/User.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/BusinessLogic/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/Controller/ContractorController.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/Controller/ContractorController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/Controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/Controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/Database/MyBackup.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/Database/MyBackup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/Database/MyDatabase.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/Database/MyDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/Main.class" afterPath="$PROJECT_DIR$/out/production/1 Year Project/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/Admin.fxml" afterPath="$PROJECT_DIR$/out/production/1 Year Project/Admin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1 Year Project/Client.fxml" afterPath="$PROJECT_DIR$/out/production/1 Year Project/Client.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Admin.fxml" afterPath="$PROJECT_DIR$/src/Admin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Client.fxml" afterPath="$PROJECT_DIR$/src/Client.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ClientController.java" afterPath="$PROJECT_DIR$/src/Controller/ClientController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/Controller.java" afterPath="$PROJECT_DIR$/src/Controller/Controller.java" />
-    </list>
+    <list default="true" id="b88e3e9e-978f-4370-8fab-99c75e360d0e" name="Default" comment="" />
     <ignored path="1 Year Project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,8 +51,8 @@
             <state relative-caret-position="204">
               <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
-                <marker date="1480426625567" expanded="true" signature="562:581" ph="SELECT * FRO... Users" />
-                <marker date="1480426625567" expanded="true" signature="952:1023" ph="UPDATE Users... " />
+                <marker date="1480588777408" expanded="true" signature="562:581" ph="SELECT * FRO... Users" />
+                <marker date="1480588777408" expanded="true" signature="952:1023" ph="UPDATE Users... " />
               </folding>
             </state>
           </provider>
@@ -185,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,7 +252,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,15 +737,16 @@
       <workItem from="1480423725709" duration="134000" />
       <workItem from="1480424329940" duration="2172000" />
       <workItem from="1480426648296" duration="3722000" />
+      <workItem from="1480589020638" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34750000" />
+    <option name="totallyTimeSpent" value="34798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -778,9 +755,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2700454" sideWeight="0.4914842" order="0" side_tool="false" content_ui="combo" />
@@ -887,8 +864,8 @@
         <state relative-caret-position="85">
           <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding>
-            <marker date="1480426625567" expanded="true" signature="562:581" ph="SELECT * FRO... Users" />
-            <marker date="1480426625567" expanded="true" signature="952:1023" ph="UPDATE Users... " />
+            <marker date="1480588777408" expanded="true" signature="562:581" ph="SELECT * FRO... Users" />
+            <marker date="1480588777408" expanded="true" signature="952:1023" ph="UPDATE Users... " />
           </folding>
         </state>
       </provider>
@@ -1077,10 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#100#101#0" expanded="false" />
-            <element signature="e#146#147#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,8 +1235,8 @@
         <state relative-caret-position="204">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <marker date="1480426625567" expanded="true" signature="562:581" ph="SELECT * FRO... Users" />
-            <marker date="1480426625567" expanded="true" signature="952:1023" ph="UPDATE Users... " />
+            <marker date="1480588777408" expanded="true" signature="562:581" ph="SELECT * FRO... Users" />
+            <marker date="1480588777408" expanded="true" signature="952:1023" ph="UPDATE Users... " />
           </folding>
         </state>
       </provider>
