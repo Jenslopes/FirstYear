@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ProjectInitialize">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ProjectInitialize">
     <children>
         <AnchorPane layoutX="-1.0" layoutY="-1.0" prefHeight="297.0" prefWidth="404.0">
             <children>
@@ -28,6 +28,6 @@
         <Button fx:id="addnote" layoutX="416.0" layoutY="231.0" mnemonicParsing="false" onAction="#addToDate" prefHeight="27.0" prefWidth="171.0" text="Add to date" />
         <TextField fx:id="notetodate" layoutX="416.0" layoutY="121.0" prefHeight="89.0" prefWidth="171.0" promptText="Note" />
         <Button fx:id="backPJ" layoutX="502.0" layoutY="359.0" mnemonicParsing="false" onAction="#pjBack" prefHeight="27.0" prefWidth="69.0" text="Back" />
-        <ComboBox fx:id="addUser" layoutX="416.0" layoutY="273.0" prefHeight="25.0" prefWidth="171.0" promptText="Add user to Project" />
+        <ComboBox fx:id="addUser" layoutX="416.0" layoutY="273.0" prefHeight="25.0" prefWidth="171.0" promptText="Add user to Project" visible="false" />
     </children>
 </Pane>
