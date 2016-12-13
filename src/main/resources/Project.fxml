@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ProjectInitialize">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ProjectInitialize">
     <children>
         <AnchorPane layoutX="-1.0" layoutY="-1.0" prefHeight="297.0" prefWidth="404.0">
             <children>
@@ -20,14 +20,14 @@
                 </ScrollPane>
             </children>
         </AnchorPane>
-        <TextField fx:id="textfield" layoutX="-1.0" layoutY="300.0" onKeyPressed="#onEnterSendMessage" prefHeight="101.0" prefWidth="406.0" promptText="Add update" />
-        <Button fx:id="send" layoutX="503.0" layoutY="313.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="25.0" prefWidth="69.0" text="Send" />
-        <Button fx:id="addfile" layoutX="422.0" layoutY="313.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Add file" />
-        <DatePicker fx:id="calender" layoutX="405.0" layoutY="43.0" prefHeight="35.0" prefWidth="196.0" promptText="Choose date" />
-        <Button fx:id="seedate" layoutX="464.0" layoutY="101.0" mnemonicParsing="false" text="See date" />
-        <Button fx:id="addnote" layoutX="456.0" layoutY="246.0" mnemonicParsing="false" text="add to date" />
-        <TextField fx:id="notetodate" layoutX="416.0" layoutY="150.0" prefHeight="89.0" prefWidth="171.0" promptText="Add to date" />
-        <Button fx:id="backPJ" layoutX="425.0" layoutY="361.0" mnemonicParsing="false" onAction="#pjBack" prefHeight="25.0" prefWidth="62.0" text="Back" />
-        <ComboBox fx:id="addUser" layoutX="409.0" layoutY="275.0" prefHeight="25.0" prefWidth="171.0" promptText="Add user to Project" visible="false" />
+        <TextField fx:id="textfield" layoutX="-1.0" layoutY="300.0" onKeyPressed="#onEnterSendMessage" prefHeight="101.0" prefWidth="398.0" promptText="Add update" />
+        <Button fx:id="send" layoutX="416.0" layoutY="316.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="25.0" prefWidth="69.0" text="Send" />
+        <Button fx:id="addfile" layoutX="502.0" layoutY="316.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Add picture" />
+        <DatePicker fx:id="calender" layoutX="411.0" layoutY="26.0" prefHeight="35.0" prefWidth="181.0" promptText="Choose date" />
+        <Button fx:id="refreshConv" layoutX="416.0" layoutY="74.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="171.0" text="Refresh Conversation" />
+        <Button fx:id="addnote" layoutX="416.0" layoutY="231.0" mnemonicParsing="false" onAction="#addToDate" prefHeight="27.0" prefWidth="171.0" text="Add to date" />
+        <TextField fx:id="notetodate" layoutX="416.0" layoutY="121.0" prefHeight="89.0" prefWidth="171.0" promptText="Note" />
+        <Button fx:id="backPJ" layoutX="502.0" layoutY="359.0" mnemonicParsing="false" onAction="#pjBack" prefHeight="27.0" prefWidth="69.0" text="Back" />
+        <ComboBox fx:id="addUser" layoutX="416.0" layoutY="273.0" prefHeight="25.0" prefWidth="171.0" promptText="Add user to Project" />
     </children>
 </Pane>

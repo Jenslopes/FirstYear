@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.72" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminController">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminController">
     <tabs>
         <Tab text="Projects">
          <content>
@@ -57,14 +57,14 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" onKeyPressed="#onEnterCreateProject" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <TextField fx:id="cpName" layoutX="54.0" layoutY="62.0" promptText="Project Name" />
-                  <TextField fx:id="cpAddress" layoutX="54.0" layoutY="104.0" promptText="Address" />
-                  <TextField fx:id="cpZip" layoutX="54.0" layoutY="148.0" promptText="Zip" />
-                  <TextField fx:id="cpPrice" layoutX="54.0" layoutY="262.0" promptText="Price" />
-                  <Button fx:id="cpNewP" layoutX="242.0" layoutY="307.0" mnemonicParsing="false" onAction="#createNewProject" text="Create new project" />
+                  <TextField fx:id="cpName" layoutX="46.0" layoutY="54.0" promptText="Project Name" />
+                  <TextField fx:id="cpAddress" layoutX="46.0" layoutY="96.0" promptText="Address" />
+                  <TextField fx:id="cpZip" layoutX="46.0" layoutY="135.0" promptText="Zip" />
+                  <TextField fx:id="cpPrice" layoutX="46.0" layoutY="260.0" promptText="Price" />
+                  <Button fx:id="cpNewP" layoutX="285.0" layoutY="309.0" mnemonicParsing="false" onAction="#createNewProject" text="Create new project" />
                   <TextArea fx:id="cpDescription" layoutX="246.0" layoutY="29.0" prefHeight="265.0" prefWidth="212.0" promptText="Description" />
-                  <DatePicker fx:id="cpStartDate" layoutX="54.0" layoutY="186.0" promptText="StartDate" />
-                  <DatePicker fx:id="cpEndDate" layoutX="54.0" layoutY="224.0" promptText="End Date" />
+                  <DatePicker fx:id="cpStartDate" layoutX="46.0" layoutY="177.0" promptText="StartDate" />
+                  <DatePicker fx:id="cpEndDate" layoutX="46.0" layoutY="221.0" promptText="End Date" />
                </children>
             </AnchorPane>
         </content>

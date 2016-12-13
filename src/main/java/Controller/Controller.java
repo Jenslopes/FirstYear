@@ -55,17 +55,17 @@ public class Controller {
             case 0:
                 u = new Admin();
                 u.setLevel("Admin");
-                BL.setScene((Stage) user.getScene().getWindow(), "../Admin.fxml");
+                BL.setScene((Stage) user.getScene().getWindow(), "/Admin.fxml");
                 break;
             case 1:
                 u = new Contractor();
                 u.setLevel("Contractor");
-                BL.setScene((Stage) user.getScene().getWindow(), "../Contractor.fxml");
+                BL.setScene((Stage) user.getScene().getWindow(), "/Contractor.fxml");
                 break;
             case 2:
                 u = new Client();
                 u.setLevel("Client");
-                BL.setScene((Stage) user.getScene().getWindow(), "../Client.fxml");
+                BL.setScene((Stage) user.getScene().getWindow(), "/Client.fxml");
                 break;
         }
     }
@@ -93,12 +93,12 @@ public class Controller {
         if (cb.getValue() == null) {
             InfoBox.info("Vælg et projekt!");
         } else {
-            BL.setScene((Stage) pass1.getScene().getWindow(), "../Project.fxml");
+            BL.setScene((Stage) pass1.getScene().getWindow(), "/Project.fxml");
         }
     }
     //HER
     public void pjBack(){
-        BL.setScene((Stage)timeline.getScene().getWindow(), "../"+ User.getLevel() + ".fxml");
+        BL.setScene((Stage)timeline.getScene().getWindow(), "/"+ User.getLevel() + ".fxml");
     }
     //HER
     public void onEnterLogin(KeyEvent keyEvent) {
@@ -115,5 +115,10 @@ public class Controller {
         st.setOnCloseRequest(e -> st.close());
         st.setScene(new Scene(root));
         st.show();
+    }
+
+    public void cancelLogin(){
+        Stage mainStage = (Stage) user.getScene().getWindow();
+        mainStage.close();
     }
 }

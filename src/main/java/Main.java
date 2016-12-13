@@ -11,6 +11,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/Controller.fxml"));
         primaryStage.setTitle("Byggegruppen KBH");
         primaryStage.setOnCloseRequest(e -> primaryStage.close());
+        primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

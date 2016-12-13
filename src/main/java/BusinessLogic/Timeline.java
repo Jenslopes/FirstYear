@@ -29,13 +29,14 @@ public class Timeline implements TimelineInterface{
         VBox vb = new VBox();
         try {
             while (rs.next()) {
-                vb.getChildren().add(new Text(new Timeline(rs.getString("DateAndTime"), rs.getString("firstName"), rs.getString("Description")).toString()));
+                vb.getChildren().add(new Text(rs.getString("DateAndTime") + "\nFrom: " + rs.getString("firstName") +  "\n" + rs.getString("Description") + "\n\n"));
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return vb;
     }
+    //Til hvis vi vælger at lave et timeline objekt.
     public String toString(){
         return DateAndTime + "\n" + "From: " + firstName + "\n" + Description+"\n\n";
     }
